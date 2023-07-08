@@ -109,6 +109,11 @@ img{
     color: var(--active-ocean);
 }
 
+.nav-menu .page-link::after{
+    content: "";
+    display: block;
+}
+
 .contacts {
     font-style: normal;
     margin-left: auto;
