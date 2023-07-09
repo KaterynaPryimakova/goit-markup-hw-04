@@ -7,6 +7,7 @@
     --cloud: #F4F4FD;
     --cornflower: #E7E9FC;
     --hero-bg-grey: #2E2F42;
+    --subtle-text: #8E8F99;
 }
 
 body {
@@ -210,8 +211,6 @@ img{
     background-color: var(--cloud);
     margin-bottom: 8px;
     padding: 24px 100px;
-    /* width: 264px;
-    height: 112px; */
     border-radius: 4px;
     display: block;
     text-align: center;
@@ -308,6 +307,32 @@ img{
     height: 100%;
     padding: 12px;
     fill: var(--cloud);
+}
+
+/**--------------Section5----------**/
+
+.customers-bloc{
+    padding: 120px 0;
+}
+
+.customers-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.customers-icon{
+    fill:var(--subtle-text);
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--subtle-text);
+    padding: 16px 32px;
+}
+.customers-icon:hover,
+.customers-icon:focus{
+    fill: var(--active-ocean);
+    border-color: var(--active-ocean);
 }
 /**----------Footer----------------*/
 
