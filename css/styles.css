@@ -155,7 +155,6 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .main-title {
@@ -205,6 +204,15 @@ img{
 
 .values-items{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.values-icon-wrap{
+    background-color: var(--cloud);
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    display: block;
 }
 
 .sub-title {
