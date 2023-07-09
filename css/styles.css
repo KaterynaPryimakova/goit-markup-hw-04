@@ -102,16 +102,25 @@ img{
     font-weight: 500;
     padding: 24px 0;
     display: block;
+    position: relative;
 }
 
 .page-link:hover,
 .page-link:focus {
     color: var(--active-ocean);
 }
-
-.nav-menu .page-link::after{
+.page-link.active{
+    color: var(--active-ocean);
+}
+.page-nav .page-link.active::after{
     content: "";
     display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--active-ocean);
+    position: absolute;
+    bottom: 0;
 }
 
 .contacts {
