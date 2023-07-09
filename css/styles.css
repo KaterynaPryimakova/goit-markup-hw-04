@@ -8,6 +8,7 @@
     --cornflower: #E7E9FC;
     --hero-bg-grey: #2E2F42;
     --subtle-text: #8E8F99;
+    --success: #31D0AA;
 }
 
 body {
@@ -22,6 +23,9 @@ body {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
     margin: 0;
 }
@@ -342,10 +346,16 @@ img{
 main {
     flex-grow: 1;
 }
+/* end */
 
 .lower-bloc {
     background-color: var(--headings-navy-blue);
-    padding: 100px 0;
+    padding: 100px 0; 
+}
+.footer-container{
+    display: flex;
+    gap: 120px;
+    justify-content: flex-start;
 }
 .lower-bloc .logo-main {
     display: inline-block;
@@ -362,6 +372,30 @@ main {
 
 .logo-accent-lower {
     color:var(--cloud);
+}
+.footer-title{
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-list{
+    display: flex;
+    gap: 16px;
+    
+}
+.footer-item{
+    max-width: 40px;
+    max-height: 40px;
+    background-color: var(--brand-color-iris);
+    border-radius: 50%;
+}
+.footer-icon{
+    fill: var(--cloud);
+    padding: 8px;
+}
+.footer-item:hover,
+.footer-item:focus{
+    background-color: var(--success);
 }
 
 /**----------Portfolio*------------*/
