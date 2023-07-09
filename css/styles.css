@@ -209,10 +209,12 @@ img{
 .values-icon-wrap{
     background-color: var(--cloud);
     margin-bottom: 8px;
-    width: 264px;
-    height: 112px;
+    padding: 24px 100px;
+    /* width: 264px;
+    height: 112px; */
     border-radius: 4px;
     display: block;
+    text-align: center;
 }
 
 .sub-title {
@@ -272,9 +274,14 @@ img{
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-text {
+.team-card-content {
     padding: 32px 16px;
     text-align: center;
+}
+
+.team-link-list{
+    display: flex;
+    gap: 24px;
 }
 
 /**----------Footer----------------*/
