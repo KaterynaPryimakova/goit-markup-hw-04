@@ -533,6 +533,10 @@ main {
     border: 1px solid var(--light-brand-color);
     border-top: none;
 }
+.project-card-text:hover{
+    border: 1px solid var(--light-brand-color);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
 .text {
     color: var(--text-color);
@@ -547,7 +551,7 @@ main {
     position: relative;
     overflow: hidden;
 }
-.project-overlay:is(:hover, :focus) .overlay-text{
+.project-overlay:is(:hover, :focus) .overlay-text {
     transform: translateY(0);
 }
 .overlay-text{
