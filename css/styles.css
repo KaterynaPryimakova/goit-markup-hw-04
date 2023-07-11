@@ -507,4 +507,24 @@ main {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+/* *------------Overlay------------ */
 
+.project-overlay{
+    position: relative;
+    overflow: hidden;
+
+}
+.project-overlay:is(:hover, :focus) .overlay-text{
+    transform: translateY(0);
+}
+.overlay-text{
+    color: var(--cloud);
+    background-color: var(--brand-color-iris);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 32px 162px 32px;
+    transform: translateY(100%);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
