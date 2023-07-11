@@ -217,6 +217,9 @@ img{
     width: 100%;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .modal-content{
     background-color: var(--modal-background);
@@ -224,10 +227,6 @@ img{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
     width: 408px;
     height: 584px;
-    margin-top: 80px;
-    margin-bottom: 13px;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
 }
 .btn-close{
@@ -256,8 +255,8 @@ img{
         opacity: 0.5;
 }
 .btn-icon-close{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
     fill: currentColor;
 }
 .btn-close:is(:hover, :focus) .btn-icon-close{
@@ -515,7 +514,7 @@ main {
     border-radius: 4px;
     border: 1px solid var(--acent-light-color);
     background-color: var(--light-brand-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter:hover,
@@ -523,6 +522,7 @@ main {
     color: var(--white);
     background-color: var(--active-color);
     border: 1px solid transparent;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .project-card-list{
