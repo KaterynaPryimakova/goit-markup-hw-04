@@ -422,20 +422,6 @@ img{
     border-color: var(--active-color);
 }
 
-/**----------Footer----------------*/
-
-/**__ glue footer*/
-.page-container{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex-grow: 1;
-}
-/* end */
-
 .lower-bloc {
     background-color: var(--dark-brand-color);
     padding: 100px 0; 
