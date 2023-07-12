@@ -201,10 +201,6 @@ img{
 .button-title:focus {
     background-color: var(--active-color);
 }
-.button-title:active{
-    transform: scale(2);
-    opacity: 0.5;
-}
 
 /**----------Modal--------------- */
 .backdrop.is-hidden{
