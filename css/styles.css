@@ -418,13 +418,14 @@ img{
     border-color: var(--active-color);
 }
 
+/* *---------------Footer--------- */
+
 .lower-bloc {
     background-color: var(--dark-brand-color);
     padding: 100px 0; 
 }
 .footer-container{
     display: flex;
-    gap: 120px;
     justify-content: flex-start;
     align-items: baseline;
 }
